@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center;
+  color: #fff;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+form {
+  color: #fff;
+  width: 75%;
+  margin: 100px auto;
+  padding: 40px 50px;
+  background: #1b1b32;
+}
+
+input[type="text"],
+input[type="number"] {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  text-indent: 15px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder {
+  color: #00000040;
+}
+
+input[type="text"]:focus,
+input[type="number"]::placeholder {
+  outline: none;
+  border: none;
+}
+
+select {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  text-indent: 15px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+select:focus {
+  outline: none;
+  border: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline-block;
+  height: 20px;
+}
+
+.onecheck input {
+  height: 20px;
+}
+
+textarea {
+  padding: 7px 0;
+  font-family: sans-serif;
+  display: block;
+  width: 100%;
+  min-height: 120px;
+  text-indent: 15px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+textarea::placeholder {
+  font-size: 20px;
+}
+
+label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.name,
+.email,
+.age,
+.select,
+.onecheck,
+.check,
+.area,
+.sen {
+  margin: 0px auto 1.27rem;
+  padding: 0.25rem;
+}
+
+input[type="radio"] {
+  height: 15px;
+  display: block;
+  margin: 10px;
+}
+
+#label-onecheck {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+#label-onecheck input {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+#check-x {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+#check-x input {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+#label-friend {
+  margin-top: 20px;
+  margin-bottom: 13px;
+}
+
+.sen {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.sen input {
+  display: block;
+  width: 100%;
+  padding: 20px 30px;
+  text-align: center;
+  font-size: 1.125rem;
+  color: #fff;
+  background: #8ebf5f;
+  border-radius: 10px;
+}
