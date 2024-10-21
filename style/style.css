@@ -100,7 +100,7 @@ label {
 .check,
 .area,
 .sen {
-  margin: 0px auto 1.27rem;
+  margin: 1px auto 1.27rem;
   padding: 0.25rem;
 }
 
@@ -110,28 +110,39 @@ input[type="radio"] {
   margin: 10px;
 }
 
-#label-onecheck {
+.label-onecheck {
   display: flex;
   align-items: center;
   font-size: 1.125rem;
   margin-bottom: 0.5rem;
 }
 
-#label-onecheck input {
+.label-onecheck input {
   display: inline-block;
   margin-right: 0.625rem;
   min-height: 1.25rem;
   min-width: 1.25rem;
 }
 
-#check-x {
+.check-x {
   display: flex;
   align-items: center;
   font-size: 1.125rem;
   margin-bottom: 0.5rem;
 }
 
-#check-x input {
+.sen input {
+  display: block;
+  width: 100%;
+  padding: 20px 30px;
+  text-align: center;
+  font-size: 1.125rem;
+  color: #fff;
+  background: #BBF02E;
+  border-radius: 10px;
+}
+
+.check-x input {
   display: inline-block;
   margin-right: 0.625rem;
   min-height: 1.25rem;
@@ -148,13 +159,4 @@ input[type="radio"] {
   margin-bottom: 50px;
 }
 
-.sen input {
-  display: block;
-  width: 100%;
-  padding: 20px 30px;
-  text-align: center;
-  font-size: 1.125rem;
-  color: #fff;
-  background: #8ebf5f;
-  border-radius: 10px;
-}
+
